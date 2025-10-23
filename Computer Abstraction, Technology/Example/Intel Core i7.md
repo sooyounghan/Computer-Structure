@@ -40,5 +40,5 @@
 <img src="https://github.com/user-attachments/assets/f347de96-f80c-4fa1-adc1-d4deedc4fcc0">
 </div>
 
-   - $ssj_ops_{i}$는 10%씩 증가될 때 마다 성능
+   - $ssj_ops{_i}$는 10%씩 증가될 때 마다 성능
    - $power_{i}$는 각 성능 수준에서 소비되는 전력
