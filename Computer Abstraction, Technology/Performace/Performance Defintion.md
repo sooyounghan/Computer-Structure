@@ -8,7 +8,7 @@
 
 3. 컴퓨터의 성능을 논할 때는 주로 응답 시간에 초점을 맞출 것
    - 성능의 최대화하기 위해서는 어떤 태스크의 응답 시간 또는 실행 시간을 최소화해야 함
-   - 따라서, 어떤 컴퓨터 X의 성능과 실행 시간의 관계는 다음과 가틍ㅁ
+   - 따라서, 어떤 컴퓨터 X의 성능과 실행 시간의 관계는 다음과 같음
 <div align="center">
 <img src="https://github.com/user-attachments/assets/7a80ca0c-468a-4286-b7a9-1beafac788fa">
 </div>
