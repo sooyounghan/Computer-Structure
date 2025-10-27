@@ -27,7 +27,7 @@
 
 5. 예) 목적 파일의 링크
 <div align="center">
-<img src="https://github.com/user-attachments/assets/e2a292f6-53d9-48d1-9c41-fb6c3f672b23">
+<img src="https://github.com/user-attachments/assets/7d3a2c61-902f-4386-b926-b2c9e241adbb">
 </div>
 
    - 프로시저 A는 변수 레이블 X와 프로시저 B의 주소를 찾아서 lw와 jal 명령을 처리
