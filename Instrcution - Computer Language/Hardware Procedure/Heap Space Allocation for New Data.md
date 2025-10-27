@@ -22,7 +22,7 @@
      + 반면, 공간을 너무 일찍 반납하면 프로그램 의도와 상관없이 '매달린 포인터(Dangling Pointer)'가 발생
      + 그래서 자바는 자동 메모리 할당과 가비지 컬렉션(Garbage Collection)을 사용
 
-4. MIPS 어셈블리 언어의 레지스터 상요 관례
+4. MIPS 어셈블리 언어의 레지스터 사용 관례
 <div align="center">
 <img src="https://github.com/user-attachments/assets/c819999e-da79-4568-bc4a-0261824c27d1">
 </div>
