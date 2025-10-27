@@ -7,7 +7,7 @@
    - 하위 16비트는 그 다음에 나오는 다른 명령으로 채울 수 있음
    - lui의 동작
 <div align="center">
-<img src="https://github.com/user-attachments/assets/4e5a01a0-ae9a-4c39-a4db-f7c9bf36f798">
+<img src="https://github.com/user-attachments/assets/6b1cfe10-d987-40de-963e-4362d326640d">
 </div>
 
 2. 32비트 상수의 로딩
