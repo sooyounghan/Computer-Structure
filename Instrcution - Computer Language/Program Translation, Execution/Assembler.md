@@ -39,3 +39,6 @@ add $t0, $zero, $t1  # 레지스터 $t0의 값은 0 + 레지스터 $t1의 값을
     - 심벌 테이블 : 외부 참조같이 아직 정의되지 않고, 남아있는 레이블들을 저장
     - 디버깅 정보 : 각 모듈이 어떻게 번역되었는지에 대한 간단한 설명이 존재, 디버거는 이 정보를 이용해서 기계어와 C 소스 파일을 연관 짓고 자료 구조를 판단
     
+<div align="center">
+<img src="https://github.com/user-attachments/assets/7e0141e6-9d94-442b-83af-90cf97d4fb8d">
+</div>
