@@ -27,7 +27,7 @@
 
 5. 예) 목적 파일의 링크
 <div align="center">
-<img src="https://github.com/user-attachments/assets/d07f337e-cc27-427a-8abd-7f22483ddad3">
+<img src="https://github.com/user-attachments/assets/e2a292f6-53d9-48d1-9c41-fb6c3f672b23">
 </div>
 
    - 프로시저 A는 변수 레이블 X와 프로시저 B의 주소를 찾아서 lw와 jal 명령을 처리
@@ -35,7 +35,9 @@
    - 텍스트 세그먼트는 $40 0000_{16}$번지에서 시작되고, 데이터 세그먼트는 $1000 0000_{16}$번지에서 시작
    - 따라서, $40 0000_{16}$번지에 프로시저 A의 텍스트가 들어가고, $1000 0000_{16}$번지에 그 데이터가 들어감
    - 프로시저 A의 목적 파일 헤더에 의하면 텍스트는 $100_{16}$바이트이고, 데이터는 $20_{16}$ 바이트이므로, 프로시저 B의 텍스트 시작 주소는 $40 0100_{16}$이고, 데이터 시작 주소는 $1000 0020_{16}$
-<img width="1172" height="730" alt="image" src="https://github.com/user-attachments/assets/4040a88b-44fb-4fcf-9ade-78ec156baad9" />
+<div align="center">
+<img src="https://github.com/user-attachments/assets/052aacdb-d29e-4714-b7e4-6c8a6a3c7ba3">
+</div>
 
    - 링커가 명령어의 주소 필드를 고침 : 명령어의 op 필드를 보고 수정할 명령어의 주소 형식을 판별
      + 첫째는 jal 명령어 : 이 명령은 의사직접 주소지정 방식을 사용하므로, $40 0004_{16}$번지에 있는 jal 명령 주소 필드는 $40 0100_{16}$번지(프로시저 B의 주소), $40 0104_{16}$ 번지의 jal 명령 주소 필드는 $40 0000_{16}$(프로시저 A의 주소)가 됨
