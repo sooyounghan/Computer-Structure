@@ -22,7 +22,7 @@
 <img src="https://github.com/user-attachments/assets/84dfa9e1-822d-493f-85a9-15665006b629">
 </div>
 
-   - 합은 10.015 X $10^{1}
+   - 합은 10.015 X $10^{1}$
    - 단계 3 : 정규화된 과학적 표기법이 아니므로 정돈할 필요가 있음
 <div align="center">
 <img src="https://github.com/user-attachments/assets/ba8a7955-986f-4d58-bd01-0b22c1b9ca53">
