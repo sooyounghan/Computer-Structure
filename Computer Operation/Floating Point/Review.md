@@ -24,3 +24,19 @@
 <img src="https://github.com/user-attachments/assets/d682b972-61d0-4ab8-a40c-d44801acf8c3">
 </div>
 
+5. NaN을 포함하는 비교를 수용하기 위해 IEEE 754 표준은 순서화와 비순서화 선택안을 포함
+   - 완전한 MIPS 명령어 집합은 NaN을 지원하는 다양한 비교 명령어 포함 (자바는 비순서화 비교를 지원하지 않음)
+   - 부동 소수점 연산의 정밀도를 극대화하기 위한 노력 일환으로 IEEE 754 표준은 비정규화된 형태의 숫자들을 포함
+   - 0과 가장 작은 정규화 수 사이 존재하는 수를 표현하기 위해 IEEE는 비정규화 수(Denormalized Number)를 허용(denorm 또는 subnormal)
+   - 이들은 모두 지수가 0이지만, 유효자리가 0이 아님 : 이 방식은 숫자가 작아지면서 유효자리가 점점 줄어들어서 궁극적으로 0이되는 것을 허용하는데 이를 점진적 언더플로우(Gradual Underflow)
+   - 예를 들어, 정규화된 양수 단일 정밀도 수 중 가장 작은 것
+<div align="center">
+<img src="https://github.com/user-attachments/assets/948208c9-8953-4d89-a0aa-6a0853bbf771">
+</div>
+
+   - 그러나 가장 작은 비정규화 수는 다음과 같음
+<div align="center">
+<img src="https://github.com/user-attachments/assets/1a399658-d631-4880-b8d0-5c2fe42e91f2">
+</div>
+
+   - 2배 정밀도 연산에서는 가장 작은 정규화 수는 1.0 X $2^{-1022}$이고, 가장 작은 비정규화 수는 1.0 X $2^{-1024}$
