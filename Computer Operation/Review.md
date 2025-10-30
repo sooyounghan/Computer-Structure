@@ -34,7 +34,7 @@
 </div>
 
    - 프로그래머와 컴파일러 작성자는 MIPS-32 전체를 사용해서 선택의 폭을 넓힐 수 있음에도 불구하고, SPEC CPU2006 정수 벤치마크는 MIPS 코어 명령어를 주로 사용
-   - SPEC CPU2006 부동 소수점 벤치마크는 MIPS 코어와 산술 코어 명령어주를 주로 사용
+   - SPEC CPU2006 부동 소수점 벤치마크는 MIPS 코어와 산술 코어 명령어를 주로 사용
 <div align="center">
 <img src="https://github.com/user-attachments/assets/9532ea16-9b54-491f-aa31-eb9362abbbd5">
 </div>
