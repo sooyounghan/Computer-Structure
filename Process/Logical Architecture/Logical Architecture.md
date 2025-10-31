@@ -18,6 +18,3 @@
 
 3. 상태를 포함하는 논리 구성 요소들을 순차 회로(Sequential Circuit)이라 부르는데, 이는 이들의 출력이 입력뿐만 아니라 내부 상태에 따라서도 달라지기 때문임
    - 예를 들면, 레지스터 파일의 출력은 입력되는 레지스터 번호와 전에 레지스터에 기록된 값 모두에 영향을 받음
-<div align="center">
-<img src="https://github.com/user-attachments/assets/f76a2052-34f4-412c-94a2-76ff166f49f0">
-</div>
